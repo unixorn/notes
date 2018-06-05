@@ -1,8 +1,17 @@
 # Monitorama 2018
 
+## High level takeaways / action items
+
+- [] Start to outline onboarding system for new SREs
+- [] Build on-call simulator for new engineers
+- [] Think through achievable projects for new engineers
+- [] Starting building anything you're learning as soon as possible!
+- [] What problems do we really want to be solving? (Serverless, Monitoring/logging SaaS)
+- [] 
+
 ## Day 1
 
-#### Logan McDonald @loganmeetsworld - Optimizing for Learning
+#### Logan McDonald @loganmeetsworld - BuzzFeed - Optimizing for Learning
 - "Problem solving is easier with constraints"
     - Dickerson Hierarchy of SRE
 - Build as soon as possible!
@@ -17,13 +26,13 @@
 - Pyschological safety
     - Safe to ask any question!
 
-### Pam Selle - IOPipe - @pamasaur - Serverless and CatOps
+### Pam Selle @pamasaur - IOPipe - Serverless and CatOps
 - "What problem do you want to be solving?"
     - Server config/patching/security/etc
 - "If youre not using an event driven system, serverless not for you"
 - Know the limits of the system
 
-### Mentoring Metrics Engineers (Yelp) - Zach Musgrave / Angelo Licastro
+### Mentoring Metrics Engineers - Yelp - Zach Musgrave / Angelo Licastro
 - Forcing functions for sharing knowledge
     - Mentor/mente meetings - No silly questions!
 - Make sure projects are achievable for interns/mentees!
@@ -34,13 +43,17 @@
 ### Dawn Parzych - Catchpoint - The Power of Storytelling
 - Storytelling - Keep It Simple Stupid!
     - Easy to overcomplicate
+- Much more difficult to make an impact in work and in life without narrative
+    - Build context! Build a story!
 
 ### Jamie Wilkison - A Treatise on the Metrology of Service Level Objectives
 - Symptom Based Alerting
     - Anything that can measured by the SLO
-- SLI (Indicator)
-- SLO (Objective)
-- SLA (Agreement)
+- Start with identifying what you want to measure, not the measurments themselves
+    - SLI (Indicator) - a carefully defined quantitative measure of some aspect of the level of service that is provided
+    - SLO (Objective) - a target value or range of values for a service level that is measured by an SLI
+    - SLA (Agreement) - an explicit or implicit contract with your users that includes consequences of meeting (or missing) the SLOs they contain
+
 
 ### Franka Schmidt - On-call Simulator! - Building an interactive game for teaching incident response
 - On-call Onboarding
@@ -50,7 +63,9 @@
     - 2. Depends on workload
     - 3. May need to involve someone else
 - On-Call Simulator Game 
-    - Twine (Pick software)
+    - Pick software (Twin light weight easy to use)
+    - Find scenarios that new engineers can step through
+    - Pick 
 
 
 ### Peter Bourgon - Observability: the Hard Parts
