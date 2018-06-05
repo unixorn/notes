@@ -6,7 +6,8 @@
 - [ ] Build on-call simulator for new engineers, help learn the environmenty in low-stakes scenario with real-world situations
 - [ ] Think through achievable projects for new engineers
 - [ ] Starting building anything you're learning as soon as possible!
-- [ ] Think through how we can enable SlackBots to increase productivity 
+- [ ] Think through how we can enable Slack-Bots to increase productivity
+- [ ] Build context into alerting (Docoumentation? Past similar events? Query for recent changes?)
 
 ## Day 1
 
@@ -111,8 +112,25 @@
             - Used bot to make sumo queries simpler, and allows engineers who dont know the query language to interface with sumo
 
 ### Andy Domeier (SPS Commerce) - Automate Your Context
+- https://github.com/adomeier/OperationalReadiness
 - Value velocity / performance
     - Companies that ship faster, generally are succeeding
 - Complexity stresses the need for context
     - Ask the right kinds of questions
     - Create a culture of curiosity
+- Operational Readiness
+    - A base set of consistent values for service delivery give you context about the app and enables you to make decisions
+        - Operations Information
+            - Who?
+            - Where?
+        - Performance
+            - KPIs
+            - Cost
+        - Agility
+            - Change effectiveness
+            - Architecture & Resilliancy
+        - Security
+            - Sounds cool!
+
+### George Luong (Slack) - Slack in the Age of Prometheus
+- 
