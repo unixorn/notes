@@ -65,10 +65,8 @@
 
 ## Day 2
 
-# Kishore Jalleda - Want to solve Over-Monitoring and Alert Fatigue? Create the right incentives!
-# Peter Bailis - Next-Generation Observability for Next-Generation Data: Video, Sensors, Telemetry
-
-# Aruna Sankaranarayanan - Coordination through community: A swarm of friendly slack bots to improve knowledge sharing
-
-# Andy Domeier - Automate Your Context
+### Kishore Jalleda - Want to solve Over-Monitoring and Alert Fatigue? Create the right incentives!
+### Peter Bailis - Next-Generation Observability for Next-Generation Data: Video, Sensors, Telemetry
+### Aruna Sankaranarayanan - Coordination through community: A swarm of friendly slack bots to improve knowledge sharing
+### Andy Domeier - Automate Your Context
 
