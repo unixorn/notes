@@ -7,7 +7,6 @@
 - [] Think through achievable projects for new engineers
 - [] Starting building anything you're learning as soon as possible!
 - [] What problems do we really want to be solving? (Serverless, Monitoring/logging SaaS)
-- [] 
 
 ## Day 1
 
