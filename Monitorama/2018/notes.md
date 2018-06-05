@@ -2,11 +2,11 @@
 
 ## High level takeaways / action items
 
-- [] Start to outline onboarding system for new SREs
-- [] Build on-call simulator for new engineers
-- [] Think through achievable projects for new engineers
-- [] Starting building anything you're learning as soon as possible!
-- [] What problems do we really want to be solving? (Serverless, Monitoring/logging SaaS)
+- [ ] Start to outline onboarding system for new SREs
+- [ ] Build on-call simulator for new engineers, help learn the environmenty in low-stakes scenario with real-world situations
+- [ ] Think through achievable projects for new engineers
+- [ ] Starting building anything you're learning as soon as possible!
+- [ ] Think through how we can enable SlackBots to increase productivity 
 
 ## Day 1
 
@@ -80,7 +80,39 @@
 ## Day 2
 
 ### Kishore Jalleda - Want to solve Over-Monitoring and Alert Fatigue? Create the right incentives!
-### Peter Bailis - Next-Generation Observability for Next-Generation Data: Video, Sensors, Telemetry
-### Aruna Sankaranarayanan - Coordination through community: A swarm of friendly slack bots to improve knowledge sharing
-### Andy Domeier - Automate Your Context
 
+### Peter Bailis - Next-Generation Observability for Next-Generation Data: Video, Sensors, Telemetry
+
+### Aruna Sankaranarayanan (Mapbox) - Coordination through community: A swarm of friendly slack bots to improve knowledge sharing
+- Small team, no documentation for a small team
+    - Was using "Learn as you go" system
+- Had timezone gap between US/India, had to rely heavily on documentation
+- On-call onboarding & setup
+    - Buddy system (3 months)
+        - Phase 1 (1 Month)
+            - Shadowing the primary engineer, mostly passively
+        - Phase 2
+            - Taking incidents together with buddy, but driving and handling smaller tasks
+        - Phase 3
+            - Taking incdients primarily, with bddy available for help if needed
+- Monitoring system
+    - Sumologic
+        - Distributed logging/metrics platform
+- Slack
+    - Increases visibility
+    - Timezone independant, easy to consume independently
+    - Allows for more eyes on problems, and involves more junior engineers and support folks where they otherwise wouldnt be
+- Slack bots
+    - Help drive down the noise
+    - Each bot Lambda function
+        - @mapbox <command> <options>
+    - Help increase visibility
+        - SumoLogic queries
+            - Used bot to make sumo queries simpler, and allows engineers who dont know the query language to interface with sumo
+
+### Andy Domeier (SPS Commerce) - Automate Your Context
+- Value velocity / performance
+    - Companies that ship faster, generally are succeeding
+- Complexity stresses the need for context
+    - Ask the right kinds of questions
+    - Create a culture of curiosity
