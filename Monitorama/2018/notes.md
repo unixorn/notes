@@ -133,4 +133,17 @@
             - Sounds cool!
 
 ### George Luong (Slack) - Slack in the Age of Prometheus
+- "We replace tools because our needs have evolved, not because they're bad"
+- Demonstraste value early and often!
+
+### Tapasweni Pathak (Mapbox) @tapaswenipathak - Incident Response As Code
+
+### Megan Kanne (Twitter) Automating Canary Analysis
+- Kayenta (Open sourced by Google/Netflix)
+- Simplify configuration of statistical tests
+
+## Day 3
+
+### Morgan McLean - Achieving Google-levels of Observability into your Application with OpenCensus
+- OpenCensus.io
 - 
