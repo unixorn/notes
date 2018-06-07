@@ -146,4 +146,29 @@
 
 ### Morgan McLean - Achieving Google-levels of Observability into your Application with OpenCensus
 - OpenCensus.io
+    - Single library supporting C++/Java/Go/Ruby/Python/.NET/Node
+- Stack traces not enough for modern distributed systems
+    - Need context, topology
+- Exporters (Jaeger, Prometheus)
+    - Allows to export to other backends
+- Works out of the box with Istio
+    - Look up Morgan's 2017 KubeCon Istio talk
+
+### Yan Cui - The present and future of Serverless observability
+- Lose many capabilities you rely on in server-oriented world (agents, daemons, etc)
+
+### Prateek Rungta - Putting billions of timeseries to work at Uber with autonomous monitoring
+- 2014-2015: Graphite
+    - No replication, very difficult to operate
+- 2015-2016: Cassandra
+    - 16x YoY growth, very expensive (1600 nodes)
+    - Ended up having to lose redndancy to handle compactions
+
+### Allan Espin - Bloomberg - Autoscaling containers with math
 - 
+
+### Kale Stedman - Assisted Remediation: By trying to build an autoremediation system, we realized we never actually wanted one
+
+### Dave Cadwallader - Security through Observability
+
+### Beth Cornils - How to include Whistler, Kate Libby, and appreciate that our differences make our teams better.
