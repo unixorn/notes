@@ -14,5 +14,8 @@
 - Can you tell me about a time you've had to resolve a serious conflict in this org?
 - How are decisions made about what technology to use?
 - How are post-mortems run?
+- What does the executive of the hiring team know about the position?
+- Are you at liberty to share why the last 3 people left this team (or role)?
+- How are people supported in their current role?
 
 Please feel free to add/remove any good ones you have started using!
