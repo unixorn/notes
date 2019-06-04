@@ -72,12 +72,49 @@
     - How to prioritize between different customer sizes or scenarios
     - How much to communicate broad SLO target to multiple teams
   - Ignore specific clients, focus on the scenarios
-  - 
+  - "Everything should be made as simple as possible, but not simpler." (Einstein)
 
-### The AWS Billing Machine and Optimizing Cloud Costs | Ryan Lopopolo
+### The AWS Billing Machine and Optimizing Cloud Costs | Ryan Lopopolo @ Stripe
 
-### Explain it Like I’m Five - What I Learned Teaching Observability to My Kids | Dave Cadwallader
+- Efficienty Engineering
+- Observability of costs
+- Needs to be built into the planning and development process, not just done once to reduce cost
 
-### Automation + Artisanship: the Future of Runbooks | Kenny Johnston
+### Explain it Like I’m Five - What I Learned Teaching Observability to My Kids | Dave Cadwallader @ DNAnexus (@geek_dave)
 
-### Tradeoffs on the Road to Observability | Liz Fong-Jones
+- Prometheus for monitoring garage at home
+  - RPi running sensors, pumping data to prom/grafana
+- Think about how to apply some tools or techniques into activities for family members
+
+### Automation + Artisanship: the Future of Runbooks | Kenny Johnston @ GitLab (@kencjohnston)
+
+- Artisanship (Right brain vs left brain), (Contractive vs Expansive), (Intrinsic vs Extrinsive motivation)
+- Opposite of Artisanship? Automation.
+  - Groups resistant to automation/best practices:
+    - Achitects, doctors, mechanics, devops
+- Runbook
+  - Compliation of routine procedures and operations that the system administrator or operatoe carries out
+- How to exist within these paradigms?
+  - Runbook Zero
+    - Written Runbook > Executable Runbook > Automation
+      - Completeness: Capture everything
+      - Prioritization: Prioritize the data based on risk, usage, time spent, etc
+      - Iterate + Incremental: "Minimally viable runbook"
+        - Make ot quick, add links for checks
+        - Don't make me think - write clear guidelines, write expecations
+
+### Tradeoffs on the Road to Observability | Liz Fong-Jones @ Honeycomb (@lizthegrey)
+
+- Whats the goal of observability?
+  - Appropriate reliability and scalability
+  - !!Dont burn out the humans!!
+  - "Appropriate observability"
+- Engineering != writing software
+  - The art of solving problems
+  - Reward for solving problems, not writing code or documents
+- Change the incentives...
+- What problems are the customers having?
+  - Dont ask 'How' too early... You might miss the 'Why'
+- Think critically about adding new code/solutions vs reusing/adapting existing
+- Document technical decisions!
+- Relying on heroism is failure
