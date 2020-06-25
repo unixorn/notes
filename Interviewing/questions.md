@@ -17,5 +17,9 @@
 - What does the executive of the hiring team know about the position?
 - Are you at liberty to share why the last 3 people left this team (or role)?
 - How are people supported in their current role?
+- How often are engineers encouraged to reduce toil?
+- Is there an active effort to pay down technical debt?
+- Do you hire Junior engineers? How do you handle mentoring and growing them?
+- How has your business adapted and cared for its employees during the Coronavirus pandemic?
 
 Please feel free to add/remove any good ones you have started using!
